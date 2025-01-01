@@ -55,7 +55,7 @@ Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X
   - Node-RED Fuctions to re-write into the format expected by Adafruit IO
   - Webhooks into Adafruit IO (and Adafruit IO subscription)
 
-## Eventually this is what dashboards on Adafruit IO might lookalike.
+## Eventually this is what dashboards on Adafruit IO might look like.
 
 <img width="775" alt="Screenshot 2025-01-01 at 5 26 42 PM" src="https://github.com/user-attachments/assets/3d958ba3-b71c-4eda-be81-091110fe4d21" />
 
