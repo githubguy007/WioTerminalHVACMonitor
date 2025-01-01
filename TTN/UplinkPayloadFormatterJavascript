@@ -1,0 +1,17 @@
+function Decoder(bytes, port) {
+ 
+  var decoded = {};
+  if (port === 8) {
+    decoded.tempUtilityRm = bytes[0] <<8 | bytes[1];
+    decoded.tempUtilityRm = decoded.tempUtilityRm / 10;
+    decoded.humiUtilityRm = bytes[2] <<8 | bytes[3];
+    decoded.humiUtilityRm = decoded.humiUtilityRm / 10;
+    decoded.tempSupply = bytes[4] <<8 | bytes[5];
+    decoded.tempSupply = decoded.tempSupply / 10;
+    decoded.tempReturn = bytes[6] <<8 | bytes[7];
+    decoded.tempReturn = decoded.tempReturn / 10;
+    decoded.DeltaT = Math.round(10*(decoded.tempSupply- decoded.tempReturn))/10;
+  }
+ 
+  return decoded;
+}
