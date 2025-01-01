@@ -8,7 +8,7 @@ Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is desig
 
 ## Features
 
-Real-Time Monitoring: Displays room temperature, relative humidity, return and supply temperatures, and Delta Temperature (ΔT).
+Real-Time Monitoring: Displays Utility room temperature & relative humidity, HVAC return and supply temperatures, and HVAC Delta Temperature (ΔT).
 LoRaWAN Connectivity: Sends sensor data wirelessly over long distances using LoRa technology.
 Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X20 (temperature) sensors.
 
@@ -61,7 +61,7 @@ Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X
 
 ## Project Structure 
 
-CIRCUITPY/
+### CIRCUITPY/
   - code.py  # Main project script
   - lib/     # Required libraries
     - adafruit_display_shapes/
@@ -72,7 +72,8 @@ CIRCUITPY/
     - ... (other libraries)
   - font/                   # Custom fonts
     - Terminus24x24.bdf   # Terminus font file
-
+      
+ ### TTN/ # Contains Decoder for The Things Network
 
 ## License
 
