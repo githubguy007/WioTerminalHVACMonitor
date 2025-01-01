@@ -19,7 +19,7 @@ from adafruit_ds18x20 import DS18X20
 # ===========================
 # Configuration Section
 # ===========================
-APPKEY = "YOUR_APPKEY"          # LoRaWAN Application Key
+APPKEY = "YOUR_APPKEY_FOR_TTN"  # LoRaWAN Application Key The Things Network
 HEADER_TEXT = "YOUR_ROOM_NAME"  # Header text for the display
 # ===========================
 
