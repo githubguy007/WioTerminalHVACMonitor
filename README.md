@@ -48,20 +48,30 @@ Two DS18B20 Sensors, via Wio's right Grove connector
 
 Connect Wio Terminal Chassis - Wio-E5 "backpack" for LoRa connectivity.
 
+Network Requirements
+
+  Connectivity to The Things Network
+  MQTT Feed to Node-RED
+  Node-RED Fuctions to re-write into the format expected by Adafruit IO
+  Webhooks into Adafruit IO (and Adafruit IO subscription)
+
+Eventually this is what dashboards on Adafruit IO might lookalike.
+
+<img width="775" alt="Screenshot 2025-01-01 at 5 26 42 PM" src="https://github.com/user-attachments/assets/3d958ba3-b71c-4eda-be81-091110fe4d21" />
+
 Project Structure 
 
 CIRCUITPY/
-│
-├── code.py                 # Main project script
-├── lib/                    # Required libraries
-│   ├── adafruit_display_shapes/
-│   ├── adafruit_display_text/
-│   ├── adafruit_bitmap_font/
-│   ├── bitmap_font/
-│   ├── terminalio/
-│   └── ... (other libraries)
-└── font/                   # Custom fonts
-    └── Terminus24x24.bdf   # Terminus font file
+  code.py  # Main project script
+  lib/     # Required libraries
+     adafruit_display_shapes/
+     adafruit_display_text/
+     adafruit_bitmap_font/
+     bitmap_font/
+     terminalio/
+     ... (other libraries)
+  font/                   # Custom fonts
+     Terminus24x24.bdf   # Terminus font file
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
