@@ -25,12 +25,12 @@ Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is desig
 
  - CircuitPython 8.2.10
  - Adafruit Libraries for CircuitPython
- - adafruit_display_shapes
- - adafruit_display_text
- - adafruit_bitmap_font
- - bitmap_font (for custom fonts)
- - terminalio font
- - and, dependencies 
+   - adafruit_display_shapes
+   - adafruit_display_text
+   - adafruit_bitmap_font
+   - bitmap_font (for custom fonts)
+   - terminalio font
+   - and, dependencies 
   
 ## Hardware Assembly
 
