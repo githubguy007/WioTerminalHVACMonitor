@@ -8,9 +8,9 @@ Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is desig
 
 ## Features
 
-### Real-Time Monitoring: Displays Utility room temperature & relative humidity, HVAC return and supply temperatures, and HVAC Delta Temperature (ΔT) - the difference between return air temperature and supply air temperature - very common in the HVAC Industry.
-### LoRaWAN Connectivity: Sends sensor data wirelessly over long distances using LoRa technology.
-### Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X20 (temperature) sensors.
+ - Real-Time Monitoring: Displays Utility room temperature & relative humidity, HVAC return and supply temperatures, and HVAC Delta Temperature (ΔT) - the difference between return air temperature and supply air temperature - very common in the HVAC Industry.
+ - LoRaWAN Connectivity: Sends sensor data wirelessly over long distances using LoRa technology.
+ - Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X20 (temperature) sensors.
 
 ## Hardware Requirements
 
