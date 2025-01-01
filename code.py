@@ -189,7 +189,7 @@ while True:
             DeltaT_label.color = 0x0000FF
             rect.fill = 0x0000FF
         
-        # Convert values to hexadecimal
+        # Convert values to ints and then to hexadecimal
         tempUtilityRm = int(tempF * 10)
         RhUtilityRm = int(relative_humidity * 10)
         tempSupply = int(DallasTempFb * 10)
