@@ -2,13 +2,12 @@
 
 Introduction
 
-Bassed on the Seeed Wio Terminal, the HVAC DeltaT Monitor with LoRa is designed to monitor and display temperature and humidity data from multiple sensors. It leverages LoRaWAN via The Things Network for wireless communication, making it ideal for remote HVAC monitoring in difficult ultility rooms. The device displays real-time data on its built-in screen and (eventually) sends sensor readings to Adafruit IO for further analysis and long term trend analsis. 
-
-Introduction
-
 Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is designed to monitor and display temperature and humidity data from multiple sensors. It leverages LoRaWAN via The Things Network for wireless communication, making it ideal for remote HVAC monitoring in difficult utility rooms. The device displays real-time data on its built-in screen and (eventually) sends sensor readings to Adafruit IO for further and long-term trend analysis. 
 
+<img width="1020" alt="Screenshot 2025-01-01 at 5 13 51 PM" src="https://github.com/user-attachments/assets/febe5290-dda0-4197-bb15-f8c5267723b5" />
+
 Features
+
 Real-Time Monitoring: Displays room temperature, relative humidity, return and supply temperatures, and Delta Temperature (ΔT).
 LoRaWAN Connectivity: Sends sensor data wirelessly over long distances using LoRa technology.
 Multiple Sensors Support: Integrates SHT4x (temperature and humidity) and DS18X20 (temperature) sensors.
@@ -66,3 +65,4 @@ CIRCUITPY/
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
