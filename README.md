@@ -40,13 +40,13 @@ Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is desig
    - SCL to SCL
    - SDA to SDA
     
-- Two DS18B20 Sensors, via Wio's right Grove connector
-  - Data pin to D1
-  - VCC to 3.3V
-  - GND to GND
-  - and a 4.7kΩ resistor between Data and VCC.
+ - Two DS18B20 Sensors, via Wio's right Grove connector
+   - Data pin to D1
+   - VCC to 3.3V
+   - GND to GND
+   - and a 4.7kΩ resistor between Data and VCC.
 
-- Connect Wio Terminal Chassis - Wio-E5 "backpack" for LoRa connectivity.
+ - Connect Wio Terminal Chassis - Wio-E5 "backpack" for LoRa connectivity.
 
 ## Network Requirements
 
