@@ -34,13 +34,13 @@ Based on Seeed Wio Terminal hardware, the HVAC DeltaT Monitor with LoRa is desig
   
 ## Hardware Assembly
 
- - SHT4x Sensor, via Wio's left Grove connector 
+ - SHT4x Sensor, via Wio's left (i2c) Grove connector 
    - VCC to 3.3V 
    - GND to GND
    - SCL to SCL
    - SDA to SDA
     
- - Two DS18B20 Sensors, via Wio's right Grove connector
+ - Two DS18B20 Sensors, via Wio's right (A/D) Grove connector
    -
    - Data pin to D1
    - VCC to 3.3V
